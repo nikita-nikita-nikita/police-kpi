@@ -68,3 +68,14 @@ $input-button-width: 268px;
     }
   }
 }
+
+
+@media (max-width: 1000px) {
+  .main-page{
+    flex-direction: column;
+    margin-top: 30px;
+  }
+  .controls{
+    margin: 0!important;
+  }
+}

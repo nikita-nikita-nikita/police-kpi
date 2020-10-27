@@ -7,16 +7,12 @@
 
 body{
   display: flex;
+  min-width: 400px;
   justify-content: center;
   margin: 0;
 }
 main{
   display: flex;
-}
-@media (max-width: 1000px) {
-  main{
-    flex-direction: column;
-  }
 }
 
 .hr-line{
@@ -29,7 +25,7 @@ main{
   width: 100%!important;
 }
 #root{
-  width: 100%;
+  overflow-x: auto;
 }
 
 small{
