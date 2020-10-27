@@ -8,13 +8,42 @@
 body{
   display: flex;
   justify-content: center;
+  margin: 0;
 }
 main{
   display: flex;
-  margin-top: 150px;
 }
 @media (max-width: 1000px) {
   main{
     flex-direction: column;
   }
+}
+
+.hr-line{
+  width: 100%;
+  height: 2px;
+  background-color: black;
+}
+
+.w-100{
+  width: 100%!important;
+}
+#root{
+  width: 100%;
+}
+
+small{
+  font-family: 'e-Ukraine-Light';
+}
+
+h1,h2,h3,h4,h5,h6{
+  font-family: 'e-Ukraine-Medium';
+  text-align: center;
+}
+
+.bg-black{
+  -moz-user-select: none;
+  -khtml-user-select: none;
+  user-select: none;
+  background-color: black;
 }

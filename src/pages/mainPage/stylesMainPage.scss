@@ -1,7 +1,9 @@
 $input-button-height: 42px;
 $input-button-width: 268px;
 
-.mainPage{
+.main-page{
+  margin-top: 150px;
+  justify-content: center;
   .logo{
     margin-bottom: 40px;
     img{
@@ -24,11 +26,16 @@ $input-button-width: 268px;
       width: $input-button-width;
       margin-bottom: 13px;
       text-align: center;
+      font-family: 'e-Ukraine-Light';
       &:focus{
         outline: none;
       }
+      &::placeholder{
+        color: #666666;
+      }
     }
     button{
+      font-family: 'e-Ukraine-Light';
       background: none #009933;
       position: relative;
       color: white;

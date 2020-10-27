@@ -11,11 +11,11 @@ const MainPage = ({setLogin}) => {
         if (inputEl.current.value == '666777') {
             setLogin(true);
             history.push("/secret")
-        }//todo login
-        else console.log("bag", inputEl.current.value);
+        }
+        else alert("nonono, thats wrong password");
     }
     return (
-        <main className="mainPage">
+        <main className="main-page">
             <div className="logo">
                 <img src={image} alt="logo"/>
             </div>
