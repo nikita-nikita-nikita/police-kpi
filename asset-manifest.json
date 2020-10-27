@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/static/css/main.33b68c74.chunk.css",
+    "main.js": "/static/js/main.c87e4fca.chunk.js",
+    "main.js.map": "/static/js/main.c87e4fca.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.383299b1.js",
+    "runtime-main.js.map": "/static/js/runtime-main.383299b1.js.map",
+    "static/js/2.35bd0e70.chunk.js": "/static/js/2.35bd0e70.chunk.js",
+    "static/js/2.35bd0e70.chunk.js.map": "/static/js/2.35bd0e70.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.33b68c74.chunk.css.map": "/static/css/main.33b68c74.chunk.css.map",
+    "static/js/2.35bd0e70.chunk.js.LICENSE.txt": "/static/js/2.35bd0e70.chunk.js.LICENSE.txt",
+    "static/media/App.scss": "/static/media/e-Ukraine-Regular.2e27596a.woff",
+    "static/media/лобо БД 2.0 малое.af89ca42.png": "/static/media/лобо БД 2.0 малое.af89ca42.png",
+    "static/media/лого БД 2.0.c8a9348d.png": "/static/media/лого БД 2.0.c8a9348d.png",
+    "static/media/челик 1.9ca6f665.png": "/static/media/челик 1.9ca6f665.png",
+    "static/media/челик 2.acbfea41.png": "/static/media/челик 2.acbfea41.png",
+    "static/media/челик 3.52fea1f0.png": "/static/media/челик 3.52fea1f0.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.383299b1.js",
+    "static/js/2.35bd0e70.chunk.js",
+    "static/css/main.33b68c74.chunk.css",
+    "static/js/main.c87e4fca.chunk.js"
+  ]
+}
