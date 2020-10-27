@@ -1,0 +1,63 @@
+$input-button-height: 42px;
+$input-button-width: 268px;
+
+.mainPage{
+  .logo{
+    margin-bottom: 40px;
+    img{
+      width: 100%;
+    }
+  }
+  .controls{
+    //todo mb change margin
+    margin-left: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    input{
+      border-radius: 0;
+      box-sizing: border-box;
+      padding: 0;
+      border: 1px solid black;
+      height: $input-button-height;
+      width: $input-button-width;
+      margin-bottom: 13px;
+      text-align: center;
+      &:focus{
+        outline: none;
+      }
+    }
+    button{
+      background: none #009933;
+      position: relative;
+      color: white;
+      border: none;
+      height: $input-button-height;
+      width: 226px;
+      padding: 0;
+      &:before, &:after{
+        color: black;
+        content: "";
+        position: absolute;
+        top:0;
+        width: 21px;
+        height: 42px;
+        border: 2px solid #009933;
+        background: #009933;
+        box-sizing: border-box;
+      }
+      &:before{
+        right: 226px;
+        border-radius: 100% 0 0 100% / 50% 0 0 50%;
+      }
+      &:after{
+        left: 226px;
+        border-radius: 0 100% 100% 0 / 0 50% 50% 0;
+      }
+      &:focus{
+        outline: none;
+      }
+    }
+  }
+}
