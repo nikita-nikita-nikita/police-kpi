@@ -18,10 +18,10 @@ const Chelick = ({img, text, data:{phone, name}}) => {
                     </div>
                     {/*    right side data*/}
                     <div className="right-side">
-                        <p>Денис</p>
+                        <p>{name}</p>
                         <p><span className="bg-black">dummy</span></p>
                         <p>студент</p>
-                        <p>+380554544515</p>
+                        <p>{phone}</p>
                     </div>
                 </div>
             </div>
